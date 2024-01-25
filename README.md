@@ -1,0 +1,1 @@
+This repository follows the following tutorial for building a Flask Todo app: https://www.python-engineer.com/posts/flask-todo-app/.
