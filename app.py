@@ -13,7 +13,7 @@ class Todo(db.Model):
     title = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
-# Example of route decorate concept.
+# Example of route decorator concept.
 @app.route("/add", methods=["POST"])
 def add():
     title = request.form.get("title")
